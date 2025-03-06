@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/bloglogo.webp",
+        url: "/bloglogo.webp",  
         width: 1200,
         height: 630,
         alt: "Asstech Preview",
@@ -40,6 +40,7 @@ export const metadata: Metadata = {
   manifest: '/manifest.webmanifest'
 };
 
+//I add suppressHydration for chakra UI provider
 
 export default function RootLayout({
   children,
