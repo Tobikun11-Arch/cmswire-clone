@@ -67,7 +67,7 @@ export default function Headline() {
           <Avatar.Fallback name="Segun Adebayo" />
         </Avatar.RootProvider>
         <Text fontSize={{ base: "sm", sm: "lg" }}>
-          By <Text as="span" color="blue.400">John B. Doee</Text>
+          By <Text as="span" color="blue.400">John B. Tobi</Text>
         </Text>
        </Flex>
 
