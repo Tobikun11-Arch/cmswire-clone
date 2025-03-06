@@ -1,2 +1,44 @@
+# Vercel
 .vercel
+
+# Node modules
 node_modules/
+node_modules/**
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build output
+.next/
+.next/cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+vercel.log
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Dependencies and lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Output files
+out/
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
