@@ -42,3 +42,6 @@ dist/
 
 # TypeScript cache
 *.tsbuildinfo
+
+.vercel
+.next/

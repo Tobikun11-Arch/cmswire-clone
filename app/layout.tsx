@@ -14,8 +14,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  manifest: "/manifest.webmanifest",
+  title: "Cmswire clone",
+  description: "Blog site for tech",
+  icons: {
+    icon: [
+      { url: "/bloglogo.webp", type: "image/png", sizes: "32x32" },
+      { url: "/bloglogo.webp", type: "image/png", sizes: "192x192" },
+    ],
+    apple: "/bloglogo.webp",
+  },
+  openGraph: {
+    title: "Cmswire clone",
+    description: "Blog site for tech",
+    url: "", 
+    type: "website",
+    images: [
+      {
+        url: "/bloglogo.webp",
+        width: 1200,
+        height: 630,
+        alt: "Asstech Preview",
+      },
+    ],
+  },
+  manifest: '/manifest.webmanifest'
 };
+
 
 export default function RootLayout({
   children,

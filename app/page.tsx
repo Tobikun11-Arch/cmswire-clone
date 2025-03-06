@@ -2,6 +2,7 @@ import { Flex } from "@chakra-ui/react";
 import EditorialBanner from "./default_components/EditorialBanner";
 import Headline from "./default_components/headline/Headline";
 
+
 export default function Home() {
   return (
     <Flex
